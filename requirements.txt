@@ -1,0 +1,14 @@
+wfdb # for ECG datasets
+matplotlib # plotting
+numpy # array processing
+ipykernel # notebook support
+ipython # IPython.display (HTML/Image) used directly in the notebook
+statsmodels # for yule-walker autoregressive estimation
+scipy # signal processing
+zea==0.1.0 # ultrasound datasets
+jax # required ML backend for zea package (PyTorch or TensorFlow also allowed)
+keras # deep learning (used for LV segmentation model)
+Pillow # image processing (PIL.Image)
+onnxruntime # deep learning (used for LV segmentation model)
+ipywidgets # interactive widgets for notebooks
+notebook # for running Jupyter notebooks
