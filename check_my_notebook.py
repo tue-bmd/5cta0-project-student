@@ -2,7 +2,7 @@
 """Self-check your project notebook *before* you submit it.
 
 Run this on your notebook to catch the most common submission problems before
-you upload to Canvas:
+you upload to Ans:
 
   • is the file a valid, openable notebook?
   • is it named  project_group<groupnumber>.ipynb ?
@@ -29,11 +29,11 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 
-# project_group<groupnumber>, tolerant of Canvas' bulk-download prefixes. This is
-# a GROUP assignment, one notebook per group. Anchoring on the literal
-# "project...group" means a leading numeric submission id that Canvas prepends is
-# never mistaken for the group number. An optional separator (project_group_12)
-# is tolerated.
+# project_group<groupnumber>, tolerant of the prefixes a bulk download adds. This
+# is a GROUP assignment, one notebook per group. Anchoring on the literal
+# "project...group" means a leading numeric submission id that Ans (or Canvas)
+# prepends is never mistaken for the group number. An optional separator
+# (project_group_12) is tolerated.
 SUBMISSION_RE = re.compile(r"project[_\-]+group[_\-]*(?P<num>\d+)", re.I)
 
 RENAME_ASK = (

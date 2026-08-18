@@ -189,7 +189,9 @@ Before you start working on the tasks, read through **`python_tutorial.ipynb`**.
 
 This is a **group** assignment, so you submit **one notebook per group**. **One member submits on behalf of the whole group.** More than one member may upload the same file if you prefer, that is fine too.
 
-Submit **only** your notebook through Canvas, renamed to **`project_group<groupnumber>.ipynb`** (for example `project_group12.ipynb`), using your Canvas group number.
+Groups are formed through the **enrollment system in Canvas** — sign up for a group there, and use that group number in your filename.
+
+Submit **only** your notebook through Ans, renamed to **`project_group<groupnumber>.ipynb`** (for example `project_group12.ipynb`), using your group number.
 
 Before submitting:
 
@@ -205,7 +207,7 @@ Before submitting:
 
    Note that this does not grade your answers, it only checks that the notebook opens, is named correctly, ran top-to-bottom, and has no errors. Tasks you left blank are reported as a friendly ⚠️ note (not an error), so a partial notebook still passes.
 
-6. Upload the notebook file to Canvas.
+6. Upload the notebook file to Ans.
 
 > [!WARNING]
 > A notebook that cannot be executed from top to bottom will receive a significant penalty.
